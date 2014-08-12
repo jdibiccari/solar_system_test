@@ -29,7 +29,7 @@ function init(){
   //camera
   camera = new THREE.PerspectiveCamera(45, WIDTH/HEIGHT, 100, 10000);
   camera.position.y = 160;
-  camera.position.z = 400;
+  camera.position.z = 100;
   camera.lookAt(sphere.position);
   scene.add(camera);
 
